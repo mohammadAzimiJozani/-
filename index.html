@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link href='https://fonts.googleapis.com/css?family=Averia Sans Libre' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bahiana' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&family=Yatra+One&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-xlg" id="nav">
+                <a href="" class="navbar-brand">
+                    <span class="icon-cloud icon mr-1"></span>
+                </a>
+                <h2 class="text  font-weight-bold">ابرهای ایران</h2>
+                <p class="mt-3  mr-1 ml-1"><b>یاشار محمدی </b> عزیز خوش آمدید</p>
+                <p class="mt-3 ">اعتبار فعلی شما : <b> 300 تومان</b></p>
+                <button type="button" class="btn mr-4 px-4 py-2" id="btn">+ افزایش اعتبار</button>
+                <p class="bg-white mt-3   bg-secondary">|</p>
+                <p class="mt-3  ml-1"><b>خروج از حساب</b></p>
+        </nav>
+        <div class="row  w-100">
+            <div class="col-md-3  sideBar">
+
+                <div class="yellow">
+
+                    <div class="pic">
+                        <svg width="111" height="111" viewBox="0 0 111 111" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <circle cx="55.5738" cy="55.4263" r="55.0147" fill="#C4C4C4"/>
+                            <circle cx="55.5738" cy="55.4263" r="55.0147" fill="url(#pattern0)"/>
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0" transform="translate(0 -0.25) scale(0.00581395)"/>
+                                </pattern>
+                                <image id="image0" width="172" height="258" xlink:href="data:image/jpeg;base64,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"/>
+                            </defs>
+                        </svg>
+
+                    </div>
+                    <h6>یاشار محمدی</h6>
+                </div>
+
+                <button type="button" class="btn mr-4 px-4 py-2 button1" >
+                    <span class="icon-browser ml-3"></span>
+                    پیشخوان
+                </button>
+                <button type="button" class="btn mr-4 px-3 py-2 button" >
+                    <span class="icon-oval oval ml-2"></span>
+                    دراپلت ها
+                </button>
+                <button type="button" class="btn mr-4 px-4 py-3 button1" >
+                    <span class="icon-money ml-3"></span>
+                    حساب مالی
+                </button>
+                <button type="button" class="btn mr-4 px-4 py-2 button1" >
+                    <span class="icon-user ml-3"></span>
+                    پروفایل
+                </button>
+                <button type="button" class="btn mr-4 px-4 py-2 button1" >
+                    <span class="icon-wallet ml-3"></span>
+                    کیف پول
+                </button>
+
+            </div>
+            <div class="col-md-7 " id="main">
+                <div class="draplet">
+                    <span class="icon-oval oval ml-2"></span>
+                    <h3>دراپلت های شما</h3>
+                </div>
+
+
+
+
+                <div class="black mt-2 mr-0 first">
+                    <div class="circle"></div>
+                    <div class="tab">
+                        <div class="tab-item">افرانت</div>
+                        <div class="tab-item text-uppercase font-weight-bold">5.122.12.132</div>
+                        <div class="tab-item text-uppercase"><b>4 core</b> cpu</div>
+                        <div class="tab-item text-uppercase"><b>8 gb</b> ram</div>
+                        <div class="tab-item text-uppercase">ubuntu 18.04 lts</div>
+                        <div class="tab-item text-uppercase">آدرس ip</div>
+                        <div class="tab-item text-uppercase"><b>10 gb/s</b> bandwidth</div>
+                        <div class="tab-item text-uppercase"><b>120gb</b> storage</div>
+                    </div>
+
+                    <div >
+                        <div class="half">
+                            <div class="font-weight-bold">مشاهده</div>
+                            <div>200تومان/دقیقه</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="black mt-2 mr-0">
+                    <div class="circle"></div>
+                    <div class="tab">
+                        <div class="tab-item">آسیاتک</div>
+                        <div class="tab-item text-uppercase font-weight-bold">5.122.12.132</div>
+                        <div class="tab-item text-uppercase"><b>4 core</b> cpu</div>
+                        <div class="tab-item text-uppercase"><b>8 gb</b> ram</div>
+                        <div class="tab-item text-uppercase">ubuntu 18.04 lts</div>
+                        <div class="tab-item text-uppercase">آدرس ip</div>
+                        <div class="tab-item text-uppercase"><b>10 gb/s</b> bandwidth</div>
+                        <div class="tab-item text-uppercase"><b>120gb</b> storage</div>
+                    </div>
+
+                    <div >
+                        <div class="half">
+                            <div class="font-weight-bold">مشاهده</div>
+                            <div>200تومان/دقیقه</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="black mt-2 mr-0">
+                    <div class="circle"></div>
+                    <div class="tab">
+                        <div class="tab-item">هتزنر آلمان</div>
+                        <div class="tab-item text-uppercase font-weight-bold">5.122.12.132</div>
+                        <div class="tab-item text-uppercase"><b>4 core</b> cpu</div>
+                        <div class="tab-item text-uppercase"><b>8 gb</b> ram</div>
+                        <div class="tab-item text-uppercase">ubuntu 18.04 lts</div>
+                        <div class="tab-item text-uppercase">آدرس ip</div>
+                        <div class="tab-item text-uppercase"><b>10 gb/s</b> bandwidth</div>
+                        <div class="tab-item text-uppercase"><b>120gb</b> storage</div>
+                    </div>
+
+                    <div >
+                        <div class="half">
+                            <div class="font-weight-bold">مشاهده</div>
+                            <div>200تومان/دقیقه</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="black mt-5 mr-0 ">
+                    <div class="circle"></div>
+                    <div class="tab">
+                        <div class="tab-item">افرانت</div>
+                        <div class="tab-item text-uppercase font-weight-bold">5.122.12.132</div>
+                        <div class="tab-item text-uppercase"><b>4 core</b> cpu</div>
+                        <div class="tab-item text-uppercase"><b>8 gb</b> ram</div>
+                        <div class="tab-item text-uppercase">ubuntu 18.04 lts</div>
+                        <div class="tab-item text-uppercase">آدرس ip</div>
+                        <div class="tab-item text-uppercase"><b>10 gb/s</b> bandwidth</div>
+                        <div class="tab-item text-uppercase"><b>120gb</b> storage</div>
+                    </div>
+
+                    <div >
+                        <div class="half">
+                            <div class="font-weight-bold">مشاهده</div>
+                            <div>200تومان/دقیقه</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="black mt-2 mr-0 " >
+                    <div class="circle"></div>
+                    <div class="tab">
+                        <div class="tab-item">افرانت</div>
+                        <div class="tab-item text-uppercase font-weight-bold">5.122.12.132</div>
+                        <div class="tab-item text-uppercase"><b>4 core</b> cpu</div>
+                        <div class="tab-item text-uppercase"><b>8 gb</b> ram</div>
+                        <div class="tab-item text-uppercase">ubuntu 18.04 lts</div>
+                        <div class="tab-item text-uppercase">آدرس ip</div>
+                        <div class="tab-item text-uppercase"><b>10 gb/s</b> bandwidth</div>
+                        <div class="tab-item text-uppercase"><b>120gb</b> storage</div>
+                    </div>
+
+                    <div >
+                        <div class="half">
+                            <div class="font-weight-bold">مشاهده</div>
+                            <div>200تومان/دقیقه</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="black mt-2 mr-0 ">
+                    <div class="circle"></div>
+                    <div class="tab">
+                        <div class="tab-item">افرانت</div>
+                        <div class="tab-item text-uppercase font-weight-bold">5.122.12.132</div>
+                        <div class="tab-item text-uppercase"><b>4 core</b> cpu</div>
+                        <div class="tab-item text-uppercase"><b>8 gb</b> ram</div>
+                        <div class="tab-item text-uppercase">ubuntu 18.04 lts</div>
+                        <div class="tab-item text-uppercase">آدرس ip</div>
+                        <div class="tab-item text-uppercase"><b>10 gb/s</b> bandwidth</div>
+                        <div class="tab-item text-uppercase"><b>120gb</b> storage</div>
+                    </div>
+
+                    <div >
+                        <div class="half">
+                            <div class="font-weight-bold">مشاهده</div>
+                            <div>200تومان/دقیقه</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="black mt-2 mr-0 ">
+                    <div class="circle"></div>
+                    <div class="tab">
+                        <div class="tab-item">افرانت</div>
+                        <div class="tab-item text-uppercase font-weight-bold">5.122.12.132</div>
+                        <div class="tab-item text-uppercase"><b>4 core</b> cpu</div>
+                        <div class="tab-item text-uppercase"><b>8 gb</b> ram</div>
+                        <div class="tab-item text-uppercase">ubuntu 18.04 lts</div>
+                        <div class="tab-item text-uppercase">آدرس ip</div>
+                        <div class="tab-item text-uppercase"><b>10 gb/s</b> bandwidth</div>
+                        <div class="tab-item text-uppercase"><b>120gb</b> storage</div>
+                    </div>
+
+                    <div >
+                        <div class="half">
+                            <div class="font-weight-bold">مشاهده</div>
+                            <div>200تومان/دقیقه</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="black mt-2 mr-0 disabled ">
+                    <div class="circle"></div>
+                    <div class="tab disabled">
+                        <div class="tab-item">افرانت</div>
+                        <div class="tab-item text-uppercase font-weight-bold">5.122.12.132</div>
+                        <div class="tab-item text-uppercase"><b>4 core</b> cpu</div>
+                        <div class="tab-item text-uppercase"><b>8 gb</b> ram</div>
+                        <div class="tab-item text-uppercase">ubuntu 18.04 lts</div>
+                        <div class="tab-item text-uppercase">آدرس ip</div>
+                        <div class="tab-item text-uppercase"><b>10 gb/s</b> bandwidth</div>
+                        <div class="tab-item text-uppercase"><b>120gb</b> storage</div>
+                    </div>
+
+                    <div >
+                        <div class="half">
+                            <div class="font-weight-bold">مشاهده</div>
+                            <div>200تومان/دقیقه</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-2 ">
+                <div id="left" class="">
+                    <h3 class="font-weight-bold">128/000</h3>
+                    <h5>اعتبار فعلی</h5>
+                    <span></span>
+
+                    <h3>192</h3>
+                    <h5>ساعت تا پایان اعتبار</h5>
+                    <span></span>
+
+                    <h3>10</h3>
+                    <h5>روز تا پایان اعتبار</h5>
+                    <span></span>
+
+                    <div id="white">
+                        <h6>کیف پول</h6>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+</body>
+</html>
